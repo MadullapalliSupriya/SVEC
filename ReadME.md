@@ -9,10 +9,10 @@
 ###  Backend Technologies
 
 - Node.js
-       -express.js
-       -nodemoon
-       -cors
-       -dotenv
+       - express.js
+       - nodemoon
+       - cors
+       - dotenv
 - PHP
 - C#
 - Java
@@ -44,3 +44,5 @@
 - git status
 - Do git configurations (set user .name and user .email)
 - commit data with commit message
+
+### welcome tosvec
