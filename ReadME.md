@@ -9,10 +9,10 @@
 ###  Backend Technologies
 
 - Node.js
-       - express.js
-       - nodemoon
-       - cors
-       - dotenv
+        - express.js
+        - nodemoon
+        - cors
+        - dotenv
 - PHP
 - C#
 - Java
@@ -29,10 +29,10 @@
 
 
 + VCS (Source code Management)
-      - Distributed VCS
-             - Git, Mercurial
-      - Remote(Central) VCS
-             - Github, Bitbucket
+        - Distributed VCS
+                 - Git, Mercurial
+        - Remote(Central) VCS
+               - Github, Bitbucket
 
 
 ###   Git
