@@ -7,12 +7,11 @@
 - ReactJS
 
 ###  Backend Technologies
-
 - Node.js
-        - express.js
-        - nodemoon
-        - cors
-        - dotenv
+       - express.js
+       - nodemoon
+       - cors
+       - dotenv
 - PHP
 - C#
 - Java
@@ -29,10 +28,10 @@
 
 
 + VCS (Source code Management)
-        - Distributed VCS
-                 - Git, Mercurial
-        - Remote(Central) VCS
-               - Github, Bitbucket
+       - Distributed VCS
+          - Git, Mercurial
+       - Remote(Central) VCS
+          - Github, Bitbucket
 
 
 ###   Git
@@ -46,3 +45,33 @@
 - commit data with commit message
 
 ### welcome tosvec
+
+### HTML5
+
+- Hyper Text Markup Language
+- Semantic Elements
+    - header
+    - section
+    - article
+    - aside
+    - footer
+    - table
+
+- Block Level Elements
+    - h1 to h6
+    - paragraph
+    - div
+    - all semantic elements
+    - Text will start from newline
+
+- Inline Elements
+    - span
+    - img
+    - a
+    - nav
+    - form
+    - input
+    - textarea
+    - legend
+    - sup
+    - sub
