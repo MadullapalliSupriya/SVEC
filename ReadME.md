@@ -159,6 +159,9 @@ selector {
         - flex-direction
         - flex-flow
 Task2:
+ - index pagr
+ - registration page
+ - login page
 
 
 ##### Reference links
