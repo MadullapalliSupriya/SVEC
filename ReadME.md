@@ -77,7 +77,66 @@
     - sub
     - ul
     - ol
+Task :
+======
+- Audio
+- Video
+- Canvas
+- Progress
+- Datalist
+- Meter
+- Select
+
+
+### CSS
++ Cascading Style Sheets
++ Types of CSS
+     - Inline CSS
+     - Internal CSS
+     - External CSS
++ Syntax of CSS
+```
+selector {
+    css properties
+}
+```
+
+#### Selectors
++ Simple selectors
+     - Universal Selector (*)
+     - By Element Name
+     - Grouping selector (,)
+     - Class Selector
+     - Id selector
+
++ Combinators
+     + Desecendent selector ( )
+     + Child selector (>)
+     + Adjacent sibling selector (+)
+     + General sibling selector (~)
++ Pseudo class selector
++ Pseudo element selector
++ Attribute selector
+
+
+
+### Box Model
+
++ margin
++ border
++ padding
+      - padding : 10px (for all adjacent sides)
+      - padding : 10px 30px (10px for top & bottom; 30px for left & ight)
+      - padding : 10px 300px 50px (10px for top; 300px for for left & right; 50px for bottom)
+      - padding : 10px 30px 4px 50px (top,right,bottom,left)
++ width
+- 1rem=16px
+
 
 ##### Reference links
 
-  -[Flation](https://www.flaticon.com/)
+  - [github login](https://github.com/)
+  - [freeSVG](https://freesvg.org/)
+  - [Flation](https://www.flaticon.com/)
+  - [html color codes](https://htmlcolorcodes.com/)
+  - [webaim(for checking contrast)](https://webaim.org/resources/contrastchecker/)

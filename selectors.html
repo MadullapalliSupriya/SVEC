@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>:: ) CSS Selector (::</title>
+    <style>
+        /* *{
+            border: 10px solid rgb(26, 24, 24);
+        } */
+         /* div p {
+            background-color: yellowgreen;
+            color: black; 
+        }*/
+        div p{
+            font-size: 50px;
+        }
+        /* div > p{
+            background-color:cornflowerblue;
+            color: black;
+        }     */
+        /* section ~p{
+            background-color: green;
+            color: seashell;
+            font-size: 50px;  
+        }   */
+        /* div+h5{
+            font-size: 100px;
+        } */ 
+         /* section~p{
+            background-color: darkgreen;
+            font-size: 100px;
+        }   */
+        /* section >p {
+            font-size: 100px;
+        } */
+        p:first-letter{
+            font-size: 100px;
+        }
+        p::first-line{
+            background-color: rgb(215, 235, 130);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>Paragraph1</p>
+        <p>Paragraph2</p>
+        <div>
+            <p>Paragraph3</p>
+        </div>
+        <section>
+            <p>Paragrph6</p>
+        </section>
+        <p>Paragraph4</p>
+        <p>Paragraph5</p>
+    </div>
+    <h5>Here i am</h5>
+</body>
+</html>
