@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>:: display ::</title>
+    <style>
+        /* p{
+            display:inline
+        }
+          span{
+            display:block;
+            background-color: silver;
+            
+        }  
+        span{
+            display: none;
+        } 
+        h3{
+            display: inline-block;
+            top: 10px;
+            background-color: rgb(214, 195, 143);
+            width: 300px;
+            height: 400px;
+            padding: 50px;
+        } */
+        .main{
+            display:flex;
+            /* flex-wrap: wrap; */
+            /* flex-direction: column-reverse; */
+            /* flex-direction: column; */
+            /* flex-direction: row-reverse; */
+            flex-flow: wrap row-reverse;
+            /* justify-content: space-around; */
+            /* justify-content: space-between; */
+            justify-content: space-evenly;
+        }
+        h1{
+            padding: 50px;
+            border: 3px solid lightgreen;
+            margin:20px;
+        }
+
+    </style>
+
+</head>
+<body>
+   <!-- <p>This is Paragraph</p> 
+   <p>This is Paragraph</p>
+   <span >Text1</span>
+   
+   
+   <span>Text2</span>
+   <div style="height:200vh">
+       <h3>Welcome</h3>
+       <h3>Welcome</h3>
+   </div> -->
+   <div class="main">
+       <h1>Heading1</h1>
+       <h1>Heading2</h1>
+       <h1>Heading3</h1>
+       <h1>Heading4</h1>
+       <h1>Heading5</h1>
+       <h1>Heading6</h1>
+   </div>
+</body>
+</html>

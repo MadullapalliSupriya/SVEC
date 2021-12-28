@@ -134,6 +134,33 @@ selector {
 - 1rem=16px
 
 
++ display
+   - none
+   - inline
+   - block
+   - inline-block
++ position
+   - static
+   - relative
+   - absolute
+   - fixed
+   - sticky
++ algin-content
++ algin-items
++ algin-self
+
+#### Responsive Web Design
+#### Flex-box
+
+- display
+     - flex
+        - flex-wrap
+        - justify-content
+        - flex-direction
+        - flex-flow
+Task2:
+
+
 ##### Reference links
 
   - [github login](https://github.com/)
