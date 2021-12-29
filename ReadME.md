@@ -163,6 +163,81 @@ selector {
  - registration page
  - login page
 
+###  Media Quries
+
+- Extra Small Devices (Mobiles)
+     - max-width:600px
+- Small Devices (Large Phones)
+     - min-width:600px
+     - max-width:768px
+- Medium Devices (Small Laptops)
+     - min-width:768px
+- Large Devices (Large Laptops or Desktops)
+     - min-width:992px
+- Extra Large Devices ()
+     - min-width:1200px
+
+```
+ @media only screen (max-width:320px) and (max-width:500px{
+     CSS Code
+ }
+```
+
+### Bootstrap 4.6
+
+- It is a CSS framework
+
+
+## Task3:
+      - Navbar with Responsive
+
+- module (Collections of Functions and classes)
+- Package (Collections of modules)
+- Library (Collection of packages)
+- Framework (Collections of library)
+    + module --> Package --> Library --> Framework
+
+    + Type of Modes
+        - Offline
+        - Online
+             -CDN links
+    
+    + background-color -bg
+    + text-white
+
+    + Margin in Booststrap (m-* (0-5))
+         - 0  --> 0rem
+         - 1  --> 0.25rem
+         - 2  --> 0.5rem
+         - 3  --> 1rem
+         - 4  --> 1.5rem           
+         - 5  --> 3rem
+         - m (margin in all directions)
+         - ml-5 (margin-left)
+         - mt (margin-top)
+         - mb (margin-bottom)
+         - mr (margin-right)
+         
+         - mt (margin-top)
+    + padding (padding-left --> p1-5) 
+
+    + colors
+         - primary
+         - secondary
+         - info
+         - success
+         - warning
+         - danger
+         - light
+         - dark
+         - white
+         
+
+    + We can use color classes for
+         - Buttons (btn btn-primary)
+         - text (text-white)
+         - background (bg-secondary)
+         - alerts (alert alert-primary)
 
 ##### Reference links
 
