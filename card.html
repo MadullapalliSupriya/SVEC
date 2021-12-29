@@ -12,29 +12,47 @@
           justify-content: space-evenly;
           flex-wrap: wrap;
        }
+       body{
+           background-repeat: no-repeat;
+           background-size: cover;
+       }
        .card{
            height: 400px;
            width: 500px;
            text-align: center;
-        
+           border: 10px solid rgb(156, 101, 19);
             margin: 20 ;
             border-radius: 10%;
-            background-color: rgb(207, 164, 98);
+            background-color: rgb(207, 164, 98); 
+
        }
+       .un{
+           font-size: 23px;
+           font-family:Verdana, Geneva, Tahoma, sans-serif;
+           font-style:initial;
+           color: rgb(18, 100, 128);
+       }
+        .pwd{
+            font-size: 23px;
+            font-weight: 500;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-style:initial;
+            color: rgb(18, 100, 128);
+        }
     </style>
 </head>
-<body>
+<body background="./images/10.jpeg">
     <div class="main">
         <div class="card">
-            <h1>Login</h1>
-            <img src="./images/programmer.png" height="20%" width="10%" alt="">
+            <h1 style="color: rgb(18, 100, 128);">Login</h1>
+            <img src="./images/programmer.png" height="40%" width="30%" alt="">
             <br>
             <br>
-            <label for="uname">Enter UserName:</label>
+            <label for="uname" class="un">Enter UserName:</label>
              <input type="text" name="uname" id="uname" placeholder="Enter UserName" required>
              <br>
              <br>
-             <label for="pword">Enter Password:</label>
+             <label for="pword " class="pwd">Enter Password:</label>
              <input type="password" name="pwd" id="pwd">
              <br>
              <br>
