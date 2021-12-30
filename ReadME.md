@@ -245,6 +245,147 @@ selector {
         - lg (large devices)
         - xl (Extra large devices)
         
+     + modal
+     + Table
+
+
+####  JavaScript
+
++ In 1995 `Brenden Eich` introduced JavaScript(ES-262)
++ JavaScript loosely toupled and dynamic language
++ It is a text based programming language and we can use in client-side and server-side(Node.js) for dynamic web applications
+- ECMA-Script(European Computer Manufacture Association)(ES-6)
+    - let & const
+    - map()
+    - arrow function
+    - classes
+    - spread operater
+    - rest parameter
++ Datatypes
+    - Number
+    - BigInt(2^53-1)
+    - String
+    - Boolean
+    - Undefined
+    - Null
+    - Object
+    - Array
+
++ variables
+    - var,let & const
+    - Scope
+        - function level --> var
+        - block level --> let & const
+    - Redefine --> var ,let
+    - Redeclare --> var
++ `typeof()`
++ Object
+
+```
+{
+     name:"Hasii"
+}
+```
+
++ Array
+
+### Alerts
+
++ To generate notifications
+   - alert
+   - prompt(to take input from the user)
+   - confirm
++ console statements
+   - `console.lo g()`
+   - `console.info()`
+   - `console.warn()`
+   - `console.error()`
+
++ Spread Operator
+    
+   - To change array elements from one array to another(swamp)
+
+  ```
+    ...variableName
+
+  ```
+
++ Rest parameter
+   + To handle function parameter
+```
+   ...parameter
+
+```
+
++ Destructuring of Array & Objects
+
++ Functions
+
+  - function with functionname
+  ```
+   function demo(x,y){
+         return x+y
+   }
+   demo()
+   ```
+   - Anonymous function
+   ```
+   let demo=function (x,y)
+   {
+        return x+y
+   }
+   ```
+
+   - Arrow function
+   ```
+   let demo= ()=>{
+        return x*y
+   }
+   demo(3,4)
+   ```
+
+   + for-in
+     - To get index valoes of an array
+   + for-of
+     - To get elements in an array
+
+   + forEach() --> (ES_5)
+   + map() --> (ES-6)
+### DOM
+   
+  - Document Object Model
+  - document  
+  - history
+  - window
+  - navigator(PWA-progressive web application)
+
++ DOM methods
+  - `getElementById()`
+  - `getElementByClassName()`
+  - `querySelector()`
+  - `innerText`
+  - `textContent`
+  - `append`
+  - `appendChild`
+  - `innerHTML`
+  - `setAttribute()`
+  - `classList`
+  - `style`
+  - `src`
+
+#### JSON
++ JavaScript Object Notation
+     - To exchange information between application and server
+
+```
+{
+     "name":"Supriya Madullapalli",
+     "salary":"8LPA",
+     "designation":"MERN Developer",
+     "mobile":18927823 
+}
+```
++Ajax call or Promises (fetch API) or axios
 ##### Reference links
 
   - [github login](https://github.com/)
@@ -252,3 +393,5 @@ selector {
   - [Flation](https://www.flaticon.com/)
   - [html color codes](https://htmlcolorcodes.com/)
   - [webaim(for checking contrast)](https://webaim.org/resources/contrastchecker/)
+  - [jsonlint or JSON validate link](https://jsonlint.com/)
+  - [ajax call](https://www.w3schools.com/xml/ajax_intro.asp)
